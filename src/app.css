@@ -1,0 +1,60 @@
+* {
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+  }
+  
+  body {
+    background-color: black;
+  }
+  
+  /* Estilo de la barra de desplazamiento */
+  ::-webkit-scrollbar {
+    width: 10px;
+    background: rgb(0, 0, 0);
+    background: -moz-radial-gradient(
+      circle,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(38, 38, 38, 1) 50%,
+      rgba(28, 28, 28, 1) 100%
+    );
+    background: -webkit-radial-gradient(
+      circle,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(38, 38, 38, 1) 50%,
+      rgba(28, 28, 28, 1) 100%
+    );
+    background: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(38, 38, 38, 1) 50%,
+      rgba(28, 28, 28, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#1c1c1c",GradientType=1);
+  }
+  
+  /* Estilo del thumb (parte que se mueve) */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+    background: linear-gradient(
+      to bottom,
+      #00ccff,
+      #006485
+    ); /* Degradado de color de fondo del thumb */
+    border: 2px solid #005064; /* Borde del thumb */
+    transition: background-color 0.2s ease-out;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(
+      to bottom,
+      #0011ff,
+      #001153
+    ); /* Degradado de color de fondo del thumb */
+    border: 2px solid rgb(0, 0, 64); /* Borde del thumb */
+    transition: background-color 0.2s ease-out;
+  }
+  

@@ -1,0 +1,33 @@
+{
+  "name": "porta",
+  "version": "1.0.0",
+  "description": "Portafolio Web",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "Manuel david ",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "react": "^16.14.0",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-dom": "^16.14.0",
+    "react-scroll": "^1.8.9",
+    "react-tsparticles": "^2.8.0",
+    "react-typed": "^1.2.0",
+    "tsparticles": "^2.8.0",
+    "vite": "^4.0.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.0.1",
+    "gh-pages": "^4.0.0"
+  }
+}
