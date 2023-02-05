@@ -20,6 +20,8 @@ import Mongo from "../../../public/Logos/mongo.png";
 import Express from "../../../public/Logos/express.png";
 import Vscode from "../../../public/Logos/vscode.png";
 import Terminal from "../../../public/Logos/terminal.png";
+import Yarn from "../../../public/Logos/yarn.png";
+import Jquery from "../../../public/Logos/jquey.png";
 import Documento from "../../../public/Curriculum ManuelDav.pdf";
 import AnimateOnScroll from "react-animate-on-scroll";
 
@@ -96,6 +98,8 @@ function About() {
                   <img src={Tailwind} alt="" className="grid_item" />
                   <img src={Bootstrap} alt="" className="grid_item" />
                   <img src={Reactrouter} alt="" className="grid_item" />
+                  <img src={Yarn} alt="" className="grid_item" />
+                  <img src={Jquery} alt="" className="grid_item"/>
                 </div>
               </section>
             </AnimateOnScroll>
