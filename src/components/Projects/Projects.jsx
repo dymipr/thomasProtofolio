@@ -4,6 +4,7 @@ import Alpha from "../../../public/pages_images/alpha-pegasus.png";
 import Sass from "../../../public/pages_images/sass.png";
 import Audio from "../../../public/pages_images/Audiophile.png";
 import Tailwind from "../../../public/pages_images/tailwind.png";
+import HomePage from "../../../public/pages_images/Homepage.png";
 import AnimateOnScroll from "react-animate-on-scroll";
 
 function Projects() {
@@ -62,6 +63,18 @@ function Projects() {
             <section>
               <a href="https://talwind-mario.netlify.app" target="_blank">
                 <img src={Tailwind} alt="" />
+              </a>
+            </section>
+          </AnimateOnScroll>
+
+          <AnimateOnScroll
+            animateIn="proyects"
+            className="project_container"
+            delay={100}
+          >
+            <section>
+              <a href="https://manueldavgomez.github.io/homepage/#/" target="_blank">
+                <img src={HomePage} alt="" />
               </a>
             </section>
           </AnimateOnScroll>
