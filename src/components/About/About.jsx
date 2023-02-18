@@ -22,7 +22,6 @@ import Vscode from "../../../public/Logos/vscode.png";
 import Terminal from "../../../public/Logos/terminal.png";
 import Yarn from "../../../public/Logos/yarn.png";
 import Jquery from "../../../public/Logos/jquey.png";
-import Documento from "../../../public/Curriculum ManuelDav.pdf";
 import AnimateOnScroll from "react-animate-on-scroll";
 
 function About() {
@@ -45,7 +44,7 @@ function About() {
                 Llevo un año adquiriendo de manera autódidacta conocimientos
                 esenciales en el campo de la programación, mi convicción es
                 obtener habilidades tanto prácticas como teóricas que me
-                permitan desempeñarme a cabalidad en esta maravillosa profesión
+                permitan desempeñarme a cabalidad en esta maravillosa profesión.
               </p>
 
               <p className="card_text">
@@ -53,9 +52,7 @@ function About() {
               </p>
 
               <div className="skills"></div>
-              <a href={Documento} download>
-                <button className="card_btn">Curriculum</button>
-              </a>
+
             </section>
           </AnimateOnScroll>
 

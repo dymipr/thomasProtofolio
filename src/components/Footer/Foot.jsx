@@ -15,7 +15,7 @@ function Foot() {
 
         <div className="copy_foot">
           <p className="paragraph_foot">
-            Manuel David Gomez Sanchez <br /> 2022
+            Manuel David Gomez Sanchez <br /> © 2023
           </p>
         </div>
       </section>

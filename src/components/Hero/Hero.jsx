@@ -14,11 +14,12 @@ function Hero() {
           <Typed className="hero_title3"
           strings={[
             "Front-End Developer",
-            "Back-End Developer",
-            "Full Stack Developer",
+            "Responsive Web Design",
+            "Web Design",
+            "Optimization"
           ]}
           typeSpeed={50}
-          backSpeed={50}
+          backSpeed={100}
           loop
           />
         </section>

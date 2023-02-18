@@ -11,8 +11,8 @@ function Navbar() {
       <header>
         <nav className="navbar navbar-expand-sm " id="nav_general">
           <div className="container-fluid">
-            <a className="navbar-brand" id="nav_logo" href="/">
-              MANUEL
+            <a className="navbar-brand" id="nav_logo" href="#">
+              Manuel Gomez
             </a>
             <button
               className="navbar-toggler"
