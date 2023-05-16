@@ -5,6 +5,7 @@ import Audio from "../../../public/pages_images/Audiophile.png";
 import Tailwind from "../../../public/pages_images/tailwind.png";
 import HomePage from "../../../public/pages_images/Homepage.png";
 import Dictionary from "../../../public/pages_images/dictionary.png"
+import Maxipan from '../../../public/pages_images/maxipan.png'
 import AnimateOnScroll from "react-animate-on-scroll";
 
 function Projects() {
@@ -75,6 +76,18 @@ function Projects() {
             <section>
               <a href="https://manueldavgomez.github.io/Dictionary-animals/" target="_blank">
                 <img src={Dictionary} alt="" />
+              </a>
+            </section>
+          </AnimateOnScroll>
+
+          <AnimateOnScroll
+            animateIn="proyects"
+            className="project_container"
+            delay={100}
+          >
+            <section>
+              <a href="https://maxipan.co/" target="_blank">
+                <img src={Maxipan} alt="" />
               </a>
             </section>
           </AnimateOnScroll>
