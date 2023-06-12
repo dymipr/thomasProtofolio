@@ -16,12 +16,13 @@ import Netlify from "../../../public/Logos/netlify.png";
 import Ejs from "../../../public/Logos/ejs.png";
 import Nodejs from "../../../public/Logos/nodejs.png";
 import Mysql from "../../../public/Logos/mysql.png";
-import Mongo from "../../../public/Logos/mongo.png";
 import Express from "../../../public/Logos/express.png";
 import Vscode from "../../../public/Logos/vscode.png";
 import Terminal from "../../../public/Logos/terminal.png";
 import Yarn from "../../../public/Logos/yarn.png";
 import Jquery from "../../../public/Logos/jquey.png";
+import Motion from "../../../public/Logos/motion.png";
+import Modules from "../../../public/Logos/css-modules.png";
 import AnimateOnScroll from "react-animate-on-scroll";
 
 function About() {
@@ -52,7 +53,6 @@ function About() {
               </p>
 
               <div className="skills"></div>
-
             </section>
           </AnimateOnScroll>
 
@@ -71,7 +71,6 @@ function About() {
                   <img src={Ejs} alt="" className="grid_item" />
                   <img src={Nodejs} alt="" className="grid_item" />
                   <img src={Mysql} alt="" className="grid_item" />
-                  <img src={Mongo} alt="" className="grid_item" />
                   <img src={Express} alt="" className="grid_item" />
                 </div>
               </section>
@@ -96,7 +95,9 @@ function About() {
                   <img src={Bootstrap} alt="" className="grid_item" />
                   <img src={Reactrouter} alt="" className="grid_item" />
                   <img src={Yarn} alt="" className="grid_item" />
-                  <img src={Jquery} alt="" className="grid_item"/>
+                  <img src={Jquery} alt="" className="grid_item" />
+                  <img src={Motion} alt="" className="grid_item" />
+                  <img src={Modules} alt="" className="grid_item" />
                 </div>
               </section>
             </AnimateOnScroll>
